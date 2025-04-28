@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Front" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 378 270">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #892a21;
+      }
+
+      .cls-3 {
+        fill: #64b370;
+      }
+
+      .cls-4 {
+        fill: #fff;
+      }
+
+      .cls-5 {
+        fill: #f04732;
+      }
+    </style>
+  </defs>
+  <rect class="cls-4" x="189" y="54" width="27" height="27"/>
+  <rect class="cls-4" x="270" y="81" width="27" height="27"/>
+  <rect class="cls-4" x="162" y="162" width="27" height="27"/>
+  <polygon class="cls-3" points="81 81 81 108 54 108 27 108 0 108 0 135 27 135 54 135 81 135 81 162 81 189 108 189 108 162 108 135 108 108 108 81 108 54 81 54 81 81"/>
+  <path class="cls-5" d="M162,27h-27v27h-27v54h27v27h-27v54h27v27h27v27h81v-27h54v-27h27v-27h27v-81h-27v-27h-27v-27h-54V0h-81v27ZM216,54v27h-27v-27h27ZM162,162h27v27h-27v-27ZM297,108h-27v-27h27v27Z"/>
+  <g>
+    <polygon class="cls-1" points="189 243 162 243 162 270 189 270 216 270 243 270 243 243 216 243 189 243"/>
+    <rect class="cls-1" x="324" y="189" width="27" height="27"/>
+    <rect class="cls-1" x="351" y="135" width="27" height="27"/>
+    <polygon class="cls-1" points="0 162 27 162 54 162 81 162 81 135 54 135 27 135 0 135 0 162"/>
+    <rect class="cls-1" x="81" y="189" width="27" height="27"/>
+    <polygon class="cls-1" points="270 216 243 216 243 243 270 243 297 243 324 243 324 216 297 216 270 216"/>
+    <rect class="cls-1" x="108" y="216" width="27" height="27"/>
+  </g>
+  <g>
+    <rect class="cls-2" x="324" y="162" width="27" height="27"/>
+    <rect class="cls-2" x="135" y="0" width="27" height="27"/>
+    <rect class="cls-2" x="108" y="27" width="27" height="27"/>
+    <rect class="cls-2" x="324" y="54" width="27" height="27"/>
+    <rect class="cls-2" x="108" y="108" width="27" height="27"/>
+    <rect class="cls-2" x="297" y="27" width="27" height="27"/>
+    <rect class="cls-2" x="243" y="0" width="27" height="27"/>
+    <rect class="cls-2" x="351" y="108" width="27" height="27"/>
+    <rect class="cls-2" x="297" y="189" width="27" height="27"/>
+    <rect class="cls-2" x="108" y="189" width="27" height="27"/>
+    <rect class="cls-2" x="135" y="216" width="27" height="27"/>
+  </g>
+</svg>

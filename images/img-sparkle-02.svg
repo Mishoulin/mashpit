@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Front" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 353 459">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #ffd87a;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-4 {
+        fill: #eefa54;
+      }
+    </style>
+  </defs>
+  <g>
+    <g>
+      <g>
+        <rect class="cls-3" x="191" y="189" width="27" height="27"/>
+        <polygon class="cls-3" points="218 135 218 162 218 189 245 189 245 162 245 135 218 135"/>
+      </g>
+      <g>
+        <rect class="cls-2" x="83" y="405" width="27" height="27"/>
+        <polygon class="cls-2" points="272 216 245 216 245 243 218 243 218 270 218 297 218 324 245 324 245 297 245 270 272 270 272 243 299 243 299 216 272 216"/>
+      </g>
+    </g>
+    <g>
+      <polygon class="cls-4" points="56 378 56 405 56 432 83 432 83 405 110 405 110 378 83 378 56 378"/>
+      <polygon class="cls-4" points="245 189 218 189 218 216 191 216 164 216 164 243 191 243 191 270 218 270 218 243 245 243 245 216 272 216 272 189 245 189"/>
+      <rect class="cls-4" x="27" y="108" width="27" height="27"/>
+    </g>
+  </g>
+  <rect class="cls-1" x="54" y="108" width="27" height="27"/>
+  <rect class="cls-1" x="27" y="81" width="27" height="27"/>
+  <rect class="cls-1" y="108" width="27" height="27"/>
+  <polygon class="cls-1" points="110 378 110 351 83 351 56 351 56 378 83 378 110 378"/>
+  <polygon class="cls-1" points="110 405 110 432 137 432 137 405 137 378 110 378 110 405"/>
+  <polygon class="cls-1" points="56 432 56 459 83 459 110 459 110 432 83 432 56 432"/>
+  <polygon class="cls-1" points="56 378 29 378 29 405 29 432 56 432 56 405 56 378"/>
+  <polygon class="cls-1" points="137 216 110 216 110 243 137 243 164 243 164 216 137 216"/>
+  <polygon class="cls-1" points="245 297 245 324 272 324 272 297 272 270 245 270 245 297"/>
+  <polygon class="cls-1" points="218 270 191 270 191 297 191 324 218 324 218 297 218 270"/>
+  <rect class="cls-1" x="272" y="243" width="27" height="27"/>
+  <rect class="cls-1" x="164" y="243" width="27" height="27"/>
+  <rect class="cls-1" x="272" y="189" width="27" height="27"/>
+  <rect class="cls-1" x="164" y="189" width="27" height="27"/>
+  <polygon class="cls-1" points="245 189 272 189 272 162 272 135 245 135 245 162 245 189"/>
+  <polygon class="cls-1" points="218 162 218 135 191 135 191 162 191 189 218 189 218 162"/>
+  <polygon class="cls-1" points="218 351 218 378 218 405 218 432 245 432 245 405 245 378 245 351 245 324 218 324 218 351"/>
+  <polygon class="cls-1" points="245 108 245 81 245 54 245 27 218 27 218 54 218 81 218 108 218 135 245 135 245 108"/>
+  <polygon class="cls-1" points="299 216 299 243 326 243 353 243 353 216 326 216 299 216"/>
+  <rect class="cls-1" x="27" y="135" width="27" height="27"/>
+</svg>
