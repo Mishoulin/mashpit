@@ -1,3 +1,59 @@
+@font-face {
+  font-family: Robotoflex Grad Xopq Xtra Yopq Ytas Ytde Ytfi Ytlc Ytuc Opsz Slnt Wdth Wght;
+  src: url('../images/') format("truetype");
+  font-weight: 100 1000;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Clashdisplay Variable;
+  src: url('../fonts/ClashDisplay-Variable.ttf') format("truetype");
+  font-weight: 200 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Generalsans Variable;
+  src: url('../fonts/GeneralSans-Variable.ttf') format("truetype");
+  font-weight: 200 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Author Variable;
+  src: url('../fonts/Author-Variable.ttf') format("truetype");
+  font-weight: 200 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Mango Grotesque Vf;
+  src: url('../fonts/Mango-Grotesque-VF.ttf') format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Author;
+  src: url('../fonts/Author-VariableItalic.ttf') format("truetype");
+  font-weight: 200 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Moaivariable;
+  src: url('../fonts/MoaiVariable-HeavyExtraWide-ObliqueVF.ttf') format("truetype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
 :root {
   --black: #181616;
   --spacing: 1vw;
@@ -10,7 +66,7 @@
   --border: .05em;
   --border-color: #000;
   --mobile-belts: 7vw;
-  --background-white: rgba(255, 255, 255, .92);
+  --background-white: #ffffffeb;
   --menu-height: 4em;
   --line-thickness: .05vw;
   --mobile-project-width: 72vw;
@@ -89,10 +145,7 @@ a {
   align-items: center;
   display: flex;
   position: fixed;
-  top: 0%;
-  bottom: 0%;
-  left: 0%;
-  right: 0%;
+  inset: 0%;
 }
 
 .cursor-wrap.mbm-ex {
@@ -191,23 +244,42 @@ a {
   margin-bottom: var(--border);
   border-top: var(--border) solid var(--border-color);
   border-bottom: var(--border) solid var(--border-color);
-  background-color: rgba(255, 255, 255, 0);
+  background-color: #fff0;
   flex-direction: row;
   justify-content: center;
   width: 104vw;
   margin-left: -2vw;
   padding-bottom: 0;
   position: absolute;
-  top: auto;
-  bottom: 0%;
-  left: 0%;
-  right: 0%;
+  inset: auto 0% 0%;
   transform: none;
+}
+
+.marquee-horizontal.hero.none {
+  display: none;
 }
 
 .marquee-horizontal.belt-footer {
   height: var(--belt-size);
   margin-top: var(--spacing);
+}
+
+.marquee-horizontal.hero-logos {
+  margin-right: -2vw;
+  margin-bottom: var(--border);
+  border-top: var(--border) solid var(--border-color);
+  border-bottom: var(--border) solid var(--border-color);
+  background-color: #fff0;
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 104vw;
+  height: 90px;
+  margin-left: -2vw;
+  padding-bottom: 0;
+  position: absolute;
+  inset: auto 0% 0%;
+  transform: none;
 }
 
 .track-horizontal-alt {
@@ -291,7 +363,7 @@ a {
   margin-left: var(--spacing);
   padding-right: var(--spacing);
   padding-left: var(--spacing);
-  border-top: var(--border) solid rgba(0, 0, 0, .44);
+  border-top: var(--border) solid #00000070;
   flex: none;
   justify-content: space-between;
   align-items: center;
@@ -407,10 +479,7 @@ a {
   width: 25vw;
   display: flex;
   position: absolute;
-  top: auto;
-  bottom: 3.7vw;
-  left: auto;
-  right: 10.8vw;
+  inset: auto 10.8vw 3.7vw auto;
 }
 
 .text-para {
@@ -447,19 +516,13 @@ a {
   width: 40vw;
   display: flex;
   position: absolute;
-  top: 19.7vw;
-  bottom: auto;
-  left: -6.4vw;
-  right: auto;
+  inset: 19.7vw auto auto -6.4vw;
   transform: rotate(-90deg);
 }
 
 .project-1 {
   position: absolute;
-  top: 12.7vw;
-  bottom: auto;
-  left: auto;
-  right: 4vw;
+  inset: 12.7vw 4vw auto auto;
 }
 
 .project-title {
@@ -504,44 +567,29 @@ a {
 
 .project-2 {
   position: absolute;
-  top: 66vw;
-  bottom: auto;
-  left: 4vw;
-  right: auto;
+  inset: 66vw auto auto 4vw;
 }
 
 .project-3 {
   position: absolute;
-  top: 81.7vw;
-  bottom: auto;
-  left: auto;
-  right: 4vw;
+  inset: 81.7vw 4vw auto auto;
 }
 
 .project-4 {
   position: absolute;
-  top: 135.7vw;
-  bottom: auto;
-  left: 10.4vw;
-  right: auto;
+  inset: 135.7vw auto auto 10.4vw;
 }
 
 .img-blob-yellow {
   z-index: 0;
   min-width: 36vw;
   position: absolute;
-  top: -54%;
-  bottom: 0%;
-  left: 44%;
-  right: 0%;
+  inset: -54% 0% 0% 44%;
 }
 
 .float-cat {
   position: absolute;
-  top: auto;
-  bottom: -91%;
-  left: auto;
-  right: -86%;
+  inset: auto -86% -91% auto;
 }
 
 .img-cat {
@@ -664,10 +712,7 @@ a {
   padding-left: var(--spacing);
   display: none;
   position: fixed;
-  top: 0%;
-  bottom: auto;
-  left: auto;
-  right: 0%;
+  inset: 0% 0% auto auto;
 }
 
 .menu-icon {
@@ -695,6 +740,7 @@ a {
   font-size: 2.3em;
   font-weight: 500;
   line-height: 1em;
+  display: none;
 }
 
 .float-link {
@@ -723,15 +769,14 @@ a {
   width: 100vw;
   display: none;
   position: fixed;
-  top: 0%;
-  bottom: 0%;
-  left: 0%;
-  right: 0%;
+  inset: 0%;
 }
 
 .float-star {
   z-index: 1200;
-  flex-direction: column;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  flex-flow: row;
   justify-content: flex-start;
   align-items: center;
   display: flex;
@@ -739,7 +784,7 @@ a {
 }
 
 .img-logo-wordmark {
-  width: 38vw;
+  width: 36vw;
   min-width: 800px;
   margin-bottom: 32px;
 }
@@ -753,10 +798,7 @@ a {
   height: 100%;
   display: flex;
   position: relative;
-  top: auto;
-  bottom: 0%;
-  left: 0%;
-  right: 0%;
+  inset: auto 0% 0%;
 }
 
 .red {
@@ -803,6 +845,104 @@ a {
   padding-left: 12%;
   padding-right: 40px;
   display: flex;
+  position: relative;
+}
+
+.section {
+  z-index: 0;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.section.logo_marquee {
+  grid-column-gap: 2.5rem;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 11.5px;
+  padding-bottom: 11.5px;
+  display: flex;
+}
+
+.section.logo_marquee.black_logo_ver {
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  background-color: #e1e2e600;
+  border-top: 1px solid #fff;
+  height: 5.625rem;
+  position: absolute;
+  inset: 29% 0% auto;
+}
+
+.section.logo_marquee.black_logo_ver.none {
+  display: none;
+}
+
+.section.logo_marquee.black_logo_ver.hero-logo-wall {
+  border-bottom: var(--border) solid var(--border-color);
+  border-top-width: var(--border);
+  border-top-color: var(--border-color);
+  -webkit-backdrop-filter: none;
+  backdrop-filter: none;
+  height: 5.2rem;
+  padding-top: 0;
+  padding-bottom: 0;
+  inset: auto 0% 0%;
+}
+
+.marquee_logo_cms_wrapper {
+  grid-column-gap: 2.63889em;
+  grid-row-gap: 2.63889em;
+  flex: none;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  display: flex;
+}
+
+.marquee_logo_list {
+  grid-column-gap: 2.63889em;
+  flex-flow: row;
+  flex: none;
+  justify-content: flex-start;
+  align-items: center;
+  height: 4.4em;
+  display: flex;
+}
+
+.marquee_logo_list.wrap {
+  flex-flow: wrap;
+}
+
+.marquee_logo_cms_item {
+  flex: none;
+  height: 100%;
+}
+
+.marquee_logo_item {
+  object-fit: contain;
+  width: auto;
+  height: 100%;
+}
+
+.img-logo-nav {
+  width: 10em;
+  margin-top: 12px;
+  margin-bottom: 10px;
+}
+
+.lottie-animation {
+  width: 10vw;
+  margin-bottom: 37px;
+}
+
+.container {
+  position: absolute;
+  inset: auto 0% 9%;
+}
+
+.div-block {
+  height: 100vh;
   position: relative;
 }
 
@@ -877,6 +1017,25 @@ a {
     width: 100%;
     min-width: 100px;
   }
+
+  .section.logo_marquee.black_logo_ver {
+    height: 5rem;
+    margin-top: 0;
+  }
+
+  .marquee_logo_cms_wrapper {
+    grid-column-gap: 2rem;
+    grid-row-gap: 2rem;
+  }
+
+  .marquee_logo_list {
+    grid-column-gap: 2rem;
+    height: 3rem;
+  }
+
+  .marquee_logo_cms_item {
+    max-width: 8.75rem;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -894,7 +1053,7 @@ a {
     margin-top: var(--mobile-nav-height);
   }
 
-  .marquee-horizontal.hero, .marquee-horizontal.belt-footer {
+  .marquee-horizontal.hero, .marquee-horizontal.belt-footer, .marquee-horizontal.hero-logos {
     height: var(--mobile-belts);
   }
 
@@ -1017,7 +1176,7 @@ a {
 
   .s-projects {
     z-index: 4;
-    background-image: linear-gradient(rgba(255, 255, 255, .92), #fff 23%, #fff 86%, rgba(255, 255, 255, .92)), url('../images/upload-4fb97271-7cb7-4746-9c56-87e24141d41a.gif');
+    background-image: linear-gradient(#ffffffeb, #fff 23% 86%, #ffffffeb), url('../images/upload-4fb97271-7cb7-4746-9c56-87e24141d41a.gif');
     background-position: 0 0, 0 0;
     background-size: auto, 704px;
     height: 319vw;
@@ -1025,7 +1184,7 @@ a {
 
   .c-footer {
     border-top-width: var(--line-thickness);
-    border-top-color: rgba(0, 0, 0, .27);
+    border-top-color: #00000045;
   }
 
   .s-contact {
@@ -1052,10 +1211,7 @@ a {
   .float-about {
     width: 90vw;
     position: relative;
-    top: 14.3vw;
-    bottom: 0;
-    left: 5vw;
-    right: 0;
+    inset: 14.3vw 0 0 5vw;
   }
 
   .and {
