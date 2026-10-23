@@ -1011,8 +1011,10 @@ a {
   }
 
   .img-logo-wordmark {
-    width: 85vw;
-    min-width: 400px;
+    width: 36vw;
+    min-width: 1px;
+    margin-top: 0;
+    margin-bottom: 20px;
   }
 
   .c-404 {
@@ -1024,6 +1026,10 @@ a {
   .section.logo_marquee.black_logo_ver {
     height: 5rem;
     margin-top: 0;
+  }
+
+  .section.logo_marquee.black_logo_ver.hero-logo-wall {
+    height: 3.5rem;
   }
 
   .marquee_logo_cms_wrapper {
@@ -1165,7 +1171,7 @@ a {
 @media screen and (max-width: 479px) {
   .hero-link.text-small {
     min-width: 1em;
-    font-size: 1em;
+    font-size: 1.2em;
   }
 
   .c-hero {
@@ -1215,6 +1221,10 @@ a {
     width: 90vw;
     position: relative;
     inset: 14.3vw 0 0 5vw;
+  }
+
+  .text-para {
+    font-size: 1.1em;
   }
 
   .and {
@@ -1286,12 +1296,28 @@ a {
   }
 
   .img-logo-wordmark {
-    width: 95vw;
-    min-width: 100px;
+    margin-bottom: 30px;
   }
 
   .c-404 {
     padding-bottom: 0;
+  }
+
+  .section.logo_marquee.black_logo_ver.hero-logo-wall {
+    height: 2.8rem;
+  }
+
+  .marquee_logo_list {
+    grid-column-gap: 1rem;
+    height: 2.2rem;
+  }
+
+  .marquee_logo_item {
+    height: 9vw;
+  }
+
+  .img-logo-nav {
+    flex: none;
   }
 }
 
